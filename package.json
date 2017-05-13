@@ -1,0 +1,22 @@
+{
+  "name": "test-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js",
+    "inspect": "node --inspect=9229 --debug-brk index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chance": "^1.0.8",
+    "lodash": "^4.17.4",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.3.0",
+    "should": "^11.2.1"
+  }
+}
