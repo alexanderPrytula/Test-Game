@@ -1,10 +1,13 @@
 {
 	"defaultNumberOfEnemies": 3,
 	"FireTower": {
-		"defaultRange": 50
+		"maxDefaultRange": 50,
+		"minDefaultRange": 10
 	},
 	"Enemy": {
 		"maxDefaultDistance": 100,
-		"maxDefaultSpeed": 50
+		"minDefaultDistance": 10,
+		"maxDefaultSpeed": 50,
+		"minDefaultSpeed": 5
 	}
 }

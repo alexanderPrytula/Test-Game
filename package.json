@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-	"manual": "node index.js --manual",
     "inspect": "node --inspect=9229 --debug-brk index.js",
     "test": "mocha"
   },
